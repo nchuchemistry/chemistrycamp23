@@ -34,7 +34,6 @@
 }
 
 #IF {
-    min-height: 100vh;
     background-color: white;
 }
 
@@ -43,7 +42,6 @@
     background-color: white;
 }
 #money {
-    min-height: 100vh;
     background-color: white;
 }
 
@@ -54,5 +52,9 @@
 
 #QA {
     min-height: 100vh;
+    background-color: white;
+}
+
+#REV {
     background-color: white;
 }

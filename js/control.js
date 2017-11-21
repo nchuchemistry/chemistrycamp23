@@ -16,18 +16,11 @@ $("#AL_B").click(function(){
   });
 
 $("#BF_B").click(function(){
-      $('html,body').animate({scrollTop:$('#Before').offset().top},600);
-    
+      $('#before').modal('show');
   });
 
-$("#RM_B").click(function(){
-      $('html,body').animate({scrollTop:$('#Re').offset().top},600);
-    
-  });
-
-$("#MN_B").click(function(){
-      $('html,body').animate({scrollTop:$('#money').offset().top},600);
-    
+$("#BF_B2").click(function(){
+      $('#before').modal('show');
   });
 
 $("#AT_B").click(function(){
@@ -40,6 +33,37 @@ $("#QA_B").click(function(){
     
   });
 
+ $("#menu").click(function(){
+      $('.ui.sidebar').sidebar('toggle');
+    
+  });
+
+$("#CN_B").click(function(){
+      $('html,body').animate({scrollTop:$('#CN').offset().top},600);
+    
+  });
+
+$("#REV_B").click(function(){
+      $('html,body').animate({scrollTop:$('#REV').offset().top},600);
+    
+  });
+
+$("#MN1_B").click(function(){
+      $('#step2').click();
+      $('html,body').animate({scrollTop:$('#Re').offset().top},600);
+  });
+
+
+$("#RM_B").click(function(){
+      $('#step1').click();
+      $('html,body').animate({scrollTop:$('#Re').offset().top},600);
+  });  
+
+
+$("#MN2_B").click(function(){
+      $('#step3').click();
+      $('html,body').animate({scrollTop:$('#Re').offset().top},600);
+  });  
 
 
   $("#QR").on({
@@ -139,6 +163,31 @@ $("#BS_B").click(function(){
       $('#school_IF').modal('show');
   });
 
+  $("#step2_B").click(function(){
+      $('#step2').click();
+      $('html,body').animate({scrollTop:$('#Re').offset().top},600);
+  });
+
+  $("#step3_B").click(function(){
+      $('#step3').click();
+      $('html,body').animate({scrollTop:$('#Re').offset().top},600);
+  });  
+
+  $("#step1_B").click(function(){
+      $('#step1').click();
+      $('html,body').animate({scrollTop:$('#Re').offset().top},600);
+  });  
+
+  $("#stepN_B").click(function(){
+      $('#step1').click();
+      $('html,body').animate({scrollTop:$('#Re').offset().top},600);
+  });  
+
+  $("#stepR_B").click(function(){
+      $('#step2').click();
+      $('html,body').animate({scrollTop:$('#Re').offset().top},600);
+  }); 
+
   // 下拉選項
   $('.ui.dropdown')
   .dropdown()
@@ -148,6 +197,8 @@ $('.ui.accordion')
   .accordion()
 ;
 
-$('.tabular.menu .item').tab();
+$('.menu .item')
+  .tab()
+;
 
 });
