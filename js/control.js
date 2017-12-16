@@ -11,6 +11,13 @@ $("#BN_B").click(function(){
   });
 
 $("#AL_B").click(function(){
+      $('#sheet').click();
+      $('html,body').animate({scrollTop:$('#News').offset().top},600);
+    
+  });
+
+$("#sheet_BT").click(function(){
+      $('#sheet').click();
       $('html,body').animate({scrollTop:$('#News').offset().top},600);
     
   });
