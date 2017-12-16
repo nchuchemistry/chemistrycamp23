@@ -201,4 +201,8 @@ $('.menu .item')
   .tab()
 ;
 
+$('#NewsTab')
+  .tab()
+;
+
 });
