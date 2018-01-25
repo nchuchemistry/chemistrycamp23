@@ -170,6 +170,26 @@ $("#BS_B").click(function(){
       $('#school_IF').modal('show');
   });
 
+  $("#Return_BT").click(function(){
+      $('#Return').modal('show');
+  });
+
+  $("#Schedule_B").click(function(){
+      $('#Schedule').modal('show');
+  });
+
+    $("#Schedule_P").click(function(){
+      $('#Schedule').modal('show');
+  });
+
+  $("#List_B").click(function(){
+      $('#List').modal('show');
+  });
+
+    $("#List_P").click(function(){
+      $('#List').modal('show');
+  });
+
   $("#step2_B").click(function(){
       $('#step2').click();
       $('html,body').animate({scrollTop:$('#Re').offset().top},600);
