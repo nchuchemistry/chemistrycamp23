@@ -22,6 +22,12 @@ $("#sheet_BT").click(function(){
     
   });
 
+$("#Teacher_B").click(function(){
+      $('#sheet').click();
+      $('html,body').animate({scrollTop:$('#Teacher').offset().top},600);
+    
+  });
+
 $("#BF_B").click(function(){
       $('#before').modal('show');
   });
@@ -232,4 +238,7 @@ $('#NewsTab')
   .tab()
 ;
 
+$('#TeacherTab')
+  .tab()
+;
 });
